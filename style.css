@@ -14,17 +14,18 @@ html{
 }
 
 body {
-   background-color: #ffebbb;
+   background-color: #febbff;
    color: #333;
    width: 100%;
+   margin: 0;
 
 }
 
 /* En-tête */
 
 #logo{
-   height: 150px;
-   width: 150px;
+   height: 120px;
+   width: 120px;
    margin: 0;
    padding: 0;
 }
@@ -32,8 +33,10 @@ body {
 nav{
    display: flex;
    justify-content: center;
-   box-shadow: 10px 10px 15px rgba(176, 30, 255, 0.3);
+   background-color: #fcb0ff;
+   box-shadow: 10px 10px 15px #30004a4d;
    justify-content: space-between;
+   margin-bottom: 30px;
 }
 
 .navbarre{
@@ -189,4 +192,34 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.hero{
+   width: 100vw;
+   height: 100vh;
+   background: url(https://static.vecteezy.com/system/resources/previews/005/004/846/non_2x/abstract-sound-wave-curve-background-illustration-with-gold-and-blue-particles-creative-colorful-equalizer-and-spectrum-music-for-banner-and-poster-vector.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 10px 10px 15px #30004a4d;
+}
+
+.hero .titles{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 16px;
+}
+
+.hero h1, .hero p{
+   margin: 0;
+   text-transform: uppercase;
+   color: white;
+}
+.hero p{
+   font-weight: 400;
 }
