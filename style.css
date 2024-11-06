@@ -5,7 +5,10 @@ html{
    display: flex;
    flex-direction: column;
    align-items: center;
-   font-family: "Poppins", sans-serif;
+   font-family: "Cinzel", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
    font-weight: 800;
    gap: 80px;
    width: 100%;
@@ -24,8 +27,8 @@ body {
 /* En-tête */
 
 #logo{
-   height: 120px;
-   width: 120px;
+   height: 150px;
+   width: 150px;
    margin: 0;
    padding: 0;
 }
@@ -45,13 +48,20 @@ nav{
    list-style: none;
    margin: O;
    padding: 20px;
-   gap: 20px;
+   gap: 5px;
+}
+
+.navbarre h2{
+   font-family: "Lora", serif;
+font-size: 25px;
+font-weight: bold;
 }
 
 .navbarre .link{
    text-align: center;
    text-decoration: none;
    list-style: none;
+   font-size: 25px;
    color: #333;
    
 }
@@ -60,10 +70,15 @@ nav{
    color: black;
    text-decoration: none;
    transition: all .3s ease-in-out;
+   padding: 5px;
 }
 
 .link:hover{
+   display: flex;
    color: #8005F2;
+   background-color: #bb79f84b;
+   border-radius: 10%;
+   transition: all .3s ease-in-out;
 }
 
 .button{
@@ -77,6 +92,7 @@ nav{
    text-decoration: none;
    font-weight: 500;
    transition: all .3s ease-in-out;
+   HEIGHT: 25PX;
 }
 
 .button:hover{
@@ -123,7 +139,7 @@ nav{
 
 .card img{
    width: 300px;
-   height: 300px; /* Ajustez la hauteur selon vos besoins */
+   height: 300px;
    object-fit: cover;
    display: block;
 }
@@ -208,6 +224,7 @@ h1{
       font-weight: 500;
       transition: all .3s ease-in-out;
       margin: 20px;
+      color: #8005F2;
 }
 
 .card a:hover{
@@ -220,6 +237,10 @@ footer{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   background-color: #ffcbf1;
+   box-shadow: 10px 10px 15px #30004a4d;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
 .socialmedia{
@@ -244,6 +265,7 @@ footer a{
    border: solid 2.5px #8005F2;
    text-decoration: none;
    font-weight: 500;
+   color: #8005F2;
 }
 
 footer a:hover{
