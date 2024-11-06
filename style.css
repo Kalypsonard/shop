@@ -14,7 +14,7 @@ html{
 }
 
 body {
-   background-color: #febbff;
+   background-color: #fffad8;
    color: #333;
    width: 100%;
    margin: 0;
@@ -33,10 +33,9 @@ body {
 nav{
    display: flex;
    justify-content: center;
-   background-color: #fcb0ff;
+   background-color: #ffcbf1;
    box-shadow: 10px 10px 15px #30004a4d;
    justify-content: space-between;
-   margin-bottom: 30px;
 }
 
 .navbarre{
@@ -119,7 +118,7 @@ nav{
 }
 
 .card:hover{
-   transform: scale(1.1);
+   transform: scale(1.03);
 }
 
 .card img{
@@ -153,12 +152,40 @@ nav{
    margin:0px 70px 70px 70px;
 }
 
+.card .musictime{
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   margin-top: 5px;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: solid 2.5px #8005F2;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+   color: #8005F2;
+}
+
+.card .musictime:hover{
+   transform: scale(1.1);
+   background: #ba79f8;
+   color: white;
+   text-decoration: none;
+}
+
+.card h3{
+   margin: 0;
+}
+
 p{
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 15px;
    font-size: 16px;
+   margin: 0;
 
 }
 
@@ -192,11 +219,44 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+}
+
+.socialmedia{
+   display: flex;
+   flex-direction: row;
+   margin: 5px 15px 15px 15px;
+   gap: 10px;
+}
+
+footer p{
+   margin: 0;
+   padding: 0;
+}
+
+footer a{
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: solid 2.5px #8005F2;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+footer a:hover{
+   transform: scale(1.1);
+   background: #8005f2;
+   color: white;
+
+
 }
 
 .hero{
-   width: 100vw;
-   height: 100vh;
+   width: 100%;
+   height: 100%;
    background: url(https://static.vecteezy.com/system/resources/previews/005/004/846/non_2x/abstract-sound-wave-curve-background-illustration-with-gold-and-blue-particles-creative-colorful-equalizer-and-spectrum-music-for-banner-and-poster-vector.jpg);
    background-repeat: no-repeat;
    background-size: cover;
